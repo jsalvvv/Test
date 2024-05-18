@@ -1,0 +1,73 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.slide {
+    margin: 50px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 2em;
+    color: darkblue;
+}
+
+.mission-statement, .description, .contact-information {
+    font-size: 1.2em;
+    color: darkblue;
+}
+
+.image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.tagline {
+    font-size: 1em;
+    color: darkblue;
+    border: 2px solid darkblue;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.hexagon {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: orange;
+    margin: 10px;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.options .hexagon {
+    background: lightgrey;
+    color: darkblue;
+}
+
+.section {
+    margin: 20px 0;
+}
+
+.icon {
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+
+.column {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+}
+
+.menu-item {
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: darkblue;
+}
